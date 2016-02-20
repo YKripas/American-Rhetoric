@@ -30,3 +30,24 @@ header{
 header img{
     height: 4em;
 }
+
+/*Navigation Menu style rules*/
+nav {
+    float: left;
+    width: 15em;
+    background-color: rgb(51,51,51);
+}
+nav ul li{
+    font-family: 'Century Gothic', sans-serif;
+    font-size: 0.7em;
+    list-style-type: none;
+    margin: 0 0 1.2em 1em;
+    height: 1.4em;
+}
+nav ul li a{
+    color: rgb(212,212,212);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: white;
+}
