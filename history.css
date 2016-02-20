@@ -10,4 +10,23 @@
    Filename:         history.css
    Supporting Files: 
 
-*/
+
+Setting up Blocks*/
+header, section, nav{
+    display: block;
+}
+
+/*Resetting padding space for every element to 0px*/
+*{
+    padding: 0px;
+}
+
+/*Header element style rules*/
+header{
+    background-color: rgb(51,51,51);
+    text-align: center;
+    width: 55em;
+}
+header img{
+    height: 4em;
+}
